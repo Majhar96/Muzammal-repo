@@ -1,0 +1,76 @@
+body{
+    font-family: 'Heebo', sans-serif;
+    text-align: justify;
+    margin:0;
+}
+.orangered{
+    color:orangered;
+}
+h1{
+    font-size: 50px;
+}
+h2{
+    font-size: 40px; 
+}
+.half-width{
+    width:50%;
+    padding-left: 40px;
+}
+.half-width img{
+    width:80%
+}
+.flexible-container{
+    display:flex;
+    margin-bottom: 100px;
+}
+.container-1{
+    background-image: url(images/top-banner.png);
+    background-repeat:no-repeat;
+
+}
+.link-style{
+    text-decoration: none;
+    padding:10px 25px;
+    color:rgb(255, 255, 255);
+    font-weight: 700;
+    border-radius: 10px;
+    background-image:linear-gradient(rgb(255, 102, 1), rgb(255, 78, 9))
+}
+.padding{
+    padding:2em;
+}
+.container-2{
+    background-image: url(images/dream-bg.png);
+    background-repeat: no-repeat;
+    background-position: right;
+}
+.box-shadow{
+    box-shadow: 10px 20px 10px darkslategrey ;
+    padding:5%;
+    margin: 4%;
+}
+
+.Experiences{
+    background-image: url(images/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: left;
+}
+.style-experiences{
+    text-align: center;
+}
+#border{
+    border-left:10px solid;
+    border-image:linear-gradient(rgb(255, 124, 1), rgb(255, 53, 2))
+    border-image-slice:1;
+}
+#border-image2{
+    border-left:10px solid;
+    border-image:linear-gradient(rgb(255, 124, 1), rgb(255, 53, 2))
+    border-image-slice:1;
+
+}
+.footer{
+    text-align: center;
+}
+
+
