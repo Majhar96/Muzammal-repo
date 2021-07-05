@@ -55,23 +55,27 @@ h2{
     background-image: url(images/exp-bg.png);
     background-repeat: no-repeat;
     background-position: left;
+    margin:5px;
 }
-.style-experiences{
+.style-header{
+    display: block;
     text-align: center;
+
 }
+
+
 #border{
     border-left:10px solid;
-    border-image:linear-gradient(rgb(255, 124, 1), rgb(255, 53, 2))
+    border-image:linear-gradient(rgb(255, 124, 1), rgb(255, 53, 2));
     border-image-slice:1;
 }
 #border-image2{
     border-left:10px solid;
-    border-image:linear-gradient(rgb(255, 124, 1), rgb(255, 53, 2))
+    border-image:linear-gradient(rgb(255, 124, 1), rgb(255, 53, 2));
     border-image-slice:1;
 
 }
 .footer{
     text-align: center;
 }
-
 
